@@ -5,6 +5,7 @@ import Navbar from './components/Navbar/Navbar';
 import HomePage from './pages/HomePage/HomePage'; // We'll create this
 import GalleryPage from './pages/GalleryPage/gallery'; // We'll create this
 import './App.css';
+import ProductGalleryPage from './pages/ProductGalleryPage/ProductGalleryPage';
 
 function App() {
   const [showMainContent, setShowMainContent] = useState(false);
@@ -58,6 +59,7 @@ function App() {
             <Routes>
               <Route path="/" element={<HomePage />} />
               <Route path="/gallery" element={<GalleryPage />} />
+               <Route path="/products" element={<ProductGalleryPage />} />
             </Routes>
           </>
         )}

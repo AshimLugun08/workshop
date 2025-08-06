@@ -32,7 +32,7 @@ const Navbar = ({ hidden }) => {
       <ul className={`nav-links ${isMenuOpen ? 'active' : ''}`} onClick={(e) => e.stopPropagation()}>
         <li><Link to="/">Home</Link></li>
         <li><Link to="/gallery">Gallery</Link></li> {/* Added Gallery link */}
-        <li><a href="#features">Features</a></li>
+        <li><a href="/products">Products</a></li>
         <li><a href="#solutions">Solutions</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#contact">Contact</a></li>
